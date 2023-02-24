@@ -1,0 +1,8 @@
+type Query {
+  Users: [User]
+}
+type User {
+  id: id
+  name: string
+  email: stringl
+}
