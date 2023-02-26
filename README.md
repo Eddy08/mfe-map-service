@@ -6,7 +6,7 @@
 
 ## Map Service:
 
-1. Create a Graphql subscription such that any new user/ user'location is visible on the map
+1. Create a Graphql subscription such that any new user/ user's location is visible on the map
 2. If a user is accessing from a new location show last n previous locations for two seconds
 
 ## Notes:
