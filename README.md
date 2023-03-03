@@ -22,3 +22,6 @@ mvn spring-boot:run -Dspring-boot.run.arguments=--logging.level.org.springframew
     mvn spring-boot:run -Dspring-boot.run.arguments=--logging.level.org.springframework=TRACE > output.txt
 
 ## Spring Boot , Docker , Java
+
+# Notes
+### https://github.com/spring-projects/spring-data-neo4j
