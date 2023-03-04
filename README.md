@@ -9,7 +9,7 @@
 0. Run the Project
 1. Create a Graphql subscription such that any new user/ user's location is visible on the map
 2. If a user is accessing from a new location show last n previous locations for two seconds
-
+3. Get the Locations from a realtime Database like MongodB , where the locations are getting updated and removed in realtime, through the MAP UI which is storing it in the db  
 ## Notes:
 
 #### For Debuggin the Application:
