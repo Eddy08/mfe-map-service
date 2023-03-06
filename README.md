@@ -8,12 +8,13 @@
 
 0. Run the Project
 1. Create a Graphql subscription such that any new user/ user's location is visible on the map
-2. If a user is accessing from a new location show last n previous locations for two seconds
-3. Get the Locations from a realtime Database like MongodB , where the locations are getting updated and removed in realtime, through the MAP UI which is storing it in the db  
-4. Map Service will consists of two programs : 
-    a. one as a analytics one
-    b. second as a storage one 
-5. Try to use docker images and k8s for the same and also use microfrontends    
+2. If a user is accessing from a new location show last n previous locations for two seconds ( store it in the db )
+3. Get the Locations from a realtime Database like MongodB , where the locations are getting updated and removed in realtime, through the MAP UI which is storing it in the db
+4. Map Service will consists of two programs :
+   a. one as a analytics one
+   b. second as a storage one
+5. Try to use docker images and k8s for the same and also use microfrontends
+
 ## Notes:
 
 #### For Debuggin the Application:
@@ -28,4 +29,5 @@ mvn spring-boot:run -Dspring-boot.run.arguments=--logging.level.org.springframew
 ## Spring Boot , Docker , Java
 
 # Notes
+
 ### https://github.com/spring-projects/spring-data-neo4j
