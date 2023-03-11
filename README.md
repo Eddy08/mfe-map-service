@@ -16,7 +16,7 @@
 5. Try to use docker images and k8s for the same and also use microfrontends
 6. Try to use native Images in dockerised environment to start and stop the application fastly for doing analysis and then storing back the response in the db
 7. Try to create non persistent application such as HSQL db for transaction task and Neo4j db (persistent db - application) per person for doing the analysis
-
+8. Learn about spring boot native images and how to run them in docker ( for less memory and fast execution)
 ## Notes:
 
 #### For Debuggin the Application:
