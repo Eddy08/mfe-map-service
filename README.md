@@ -18,6 +18,7 @@
 7. Try to create non persistent application such as HSQL db for transaction task and Neo4j db (persistent db - application) per person for doing the analysis
 8. Learn about spring boot native images and how to run them in docker ( for less memory and fast execution)
 9. Try to use nanovms for super fast boot up ** https://nanovms.com/ ** => https://ops.city/
+10. Try to monitor the api's with Micrometer
 
 ## Notes:
 
