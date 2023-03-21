@@ -1,8 +1,5 @@
-FROM neo4j:5.5.0-enterprise
-COPY extension_script.sh /extension_script.sh
-ENV EXTENSION_SCRIPT=/extension_script.sh
-
 FROM alpine:latest
+RUN apk add git
 RUN git clone https://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@github.com/Eddy08/mfe-map-service
 
 
