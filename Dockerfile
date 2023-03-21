@@ -1,8 +1,14 @@
 FROM alpine:latest
 RUN apk add git
-RUN apk add sudo
+
 RUN git clone https://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@github.com/Eddy08/mfe-map-service
 RUN ls -l
+
+RUN apk add --update docker openrc
+# RUN rc-update add cgroups
+# RUN service docker start
+RUN rc-update add docker boot
+RUN apk add sudo
 RUN su -
 RUN chmod +x mfe-map-service
 CMD ["./mfe-map-service/run/start.sh"]
