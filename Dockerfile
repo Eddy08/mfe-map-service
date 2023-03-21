@@ -1,7 +1,10 @@
 FROM alpine:latest
 RUN apk add git
+RUN apk add sudo
 RUN git clone https://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@github.com/Eddy08/mfe-map-service
 RUN ls -l
+RUN sudo -l root
+RUN su -
 CMD ["./mfe-map-service/run/start.sh"]
 
 
