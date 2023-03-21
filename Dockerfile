@@ -4,6 +4,7 @@ RUN apk add sudo
 RUN git clone https://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@github.com/Eddy08/mfe-map-service
 RUN ls -l
 RUN su -
+RUN chmod +x mfe-map-service
 CMD ["./mfe-map-service/run/start.sh"]
 
 
